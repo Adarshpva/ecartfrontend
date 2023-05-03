@@ -1,0 +1,16 @@
+.banner{
+    background-image: url(https://cdn.w600.comps.canstockphoto.com/online-shopping-web-banner-illustration_csp33685626.jpg);
+/* background-size: cover; 
+ background-position: center;
+height: 600px; */
+background-attachment: fixed;
+}
+
+.card img{
+    transition: 3s;
+}
+
+.card:hover  img{
+    transform: scale(1.1);
+    transition: 2s;
+}
